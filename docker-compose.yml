@@ -4,11 +4,11 @@ services:
   xss-demo:
     build: .
     ports:
-      - "8087:8087"
+      - "9090:9090"
     container_name: xss-vulnerability-demo
     environment:
       - NODE_ENV=production
-      - PORT=8087
+      - PORT=9090
     volumes:
       - ./state.json:/app/state.json
     restart: unless-stopped

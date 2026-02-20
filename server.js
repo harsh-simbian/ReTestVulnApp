@@ -4,7 +4,7 @@ const path = require('path');
 const DOMPurify = require('isomorphic-dompurify');
 
 const app = express();
-const PORT = process.env.PORT || 8087;
+const PORT = process.env.PORT || 9090;
 
 const STATE_FILE = path.join(__dirname, 'state.json');
 
